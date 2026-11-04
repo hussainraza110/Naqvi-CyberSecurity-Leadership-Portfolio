@@ -1,0 +1,19 @@
+flowchart TB
+    Board[Board / Board Risk Committee]
+    Exec[CEO / Executive Committee]
+    CRO[Enterprise Risk / CRO]
+    CISO[CISO and Central Security Function]
+    BU[Business Units and Service Owners]
+    IT[Technology / Product Teams]
+    Prov[External Providers]
+    Audit[Internal Audit]
+    Board -->|Oversight| Exec
+    Exec -->|Mandate| CISO
+    CRO <-->|Risk framework and challenge| CISO
+    CISO -->|Standards, advice, monitoring| BU
+    CISO -->|Architecture and requirements| IT
+    BU -->|Own service risk| Exec
+    IT -->|Operate technology and controls| BU
+    Prov -->|Contracted services| IT
+    CISO -->|Provider oversight| Prov
+    Audit -.->|Independent assurance| Board
