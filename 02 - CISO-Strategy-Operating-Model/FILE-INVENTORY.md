@@ -1,0 +1,30 @@
+# File Inventory
+
+- `01-Strategic-Context/assumptions-and-boundaries.md`
+- `01-Strategic-Context/enterprise-profile.md`
+- `02-CISO-Strategy-Blueprint/strategy-blueprint.md`
+- `03-Cybersecurity-Operating-Model/operating-model.md`
+- `04-Governance-Executive-Oversight/governance-model.md`
+- `05-Capability-Maturity-Model/capability-model.md`
+- `06-Strategy-Execution-Roadmap/three-year-roadmap.md`
+- `07-Investment-Budget-Strategy/investment-and-budget.md`
+- `08-Performance-Measurement/kpi-kri-framework.md`
+- `09-CISO-Lifecycle-Playbook/lifecycle-playbook.md`
+- `10-Executive-Decision-Scenarios/executive-scenarios.md`
+- `README.md`
+- `diagrams/ciso-lifecycle.mmd`
+- `diagrams/governance-architecture.mmd`
+- `diagrams/operating-model.mmd`
+- `diagrams/strategy-roadmap.mmd`
+- `executive-briefing/ciso-strategy-executive-briefing.md`
+- `references/framework-alignment.md`
+- `templates/annual-strategy-review-checklist.md`
+- `templates/capability-maturity-assessment.md`
+- `templates/governance-decision-rights-matrix.md`
+- `templates/initiative-prioritization-matrix.md`
+- `templates/investment-business-case-template.md`
+- `templates/kpi-kri-definition-and-reporting.md`
+- `templates/multi-year-roadmap-template.md`
+- `templates/operating-model-design-canvas.md`
+- `templates/stakeholder-alignment-worksheet.md`
+- `templates/strategy-development-canvas.md`
