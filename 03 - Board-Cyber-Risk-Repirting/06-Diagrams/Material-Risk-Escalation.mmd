@@ -1,0 +1,11 @@
+flowchart TD
+    A[Incident, threshold breach, control failure, or resilience gap] --> B{Potentially material?}
+    B -- No --> C[Normal owner governance]
+    B -- Yes --> D[Notify CISO, CRO, accountable executive]
+    D --> E[State facts, unknowns, impact, containment, next update]
+    E --> F{Board-level or delegated-authority trigger?}
+    F -- No --> G[Executive risk governance and treatment]
+    F -- Yes --> H[Notify BRC Chair / Board per protocol]
+    G --> I[Record owner, decision, due date, evidence]
+    H --> I
+    I --> J[Update board report and close loop]
