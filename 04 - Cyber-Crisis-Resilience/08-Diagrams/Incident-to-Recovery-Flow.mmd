@@ -1,0 +1,15 @@
+flowchart TD
+    A[Detect and report] --> B[Analyze scope, confidence, impact]
+    B --> C{Crisis criteria met?}
+    C -- Yes --> D[Activate crisis governance]
+    C -- No --> E[Incident response governance]
+    D --> F[Executive coordination and decisions]
+    E --> G[Contain and preserve evidence]
+    F --> G
+    G --> H[Eradicate and establish trusted control]
+    H --> I[Recover by dependency and business priority]
+    I --> J[Security, data, technical, business validation]
+    J --> K{Recovery gates met?}
+    K -- No --> I
+    K -- Yes --> L[Resume and monitor]
+    L --> M[Stand down, review, improve]
